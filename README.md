@@ -21,7 +21,8 @@
 * **Hide / Unhide Bar:** (Polybar)
 
 
-https://user-images.githubusercontent.com/88548908/193977316-53142dfd-3642-4fad-8579-7dc8b2b759e1.mp4
+https://user-images.githubusercontent.com/88548908/193978019-da74358b-d59d-470b-a4a1-69251d7a1bcd.mp4
+
 
 ### 🌸Emilia:
 
