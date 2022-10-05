@@ -253,7 +253,7 @@ systemctl --user enable mpd.service
 systemctl --user start mpd.service
 ```
 
-The proper execute permissions on some files should be maintained when you download/clone and copy to your directories, but if not just run the following line by line.
+##The proper execute permissions on some files should be maintained when you download/clone and copy to your directories, but if not just run the following line by line.
 
 ```sh
 chmod +x ~/.config/bspwm/bspwmrc
