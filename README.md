@@ -251,3 +251,7 @@ fi
 systemctl --user enable mpd.service
 systemctl --user start mpd.service
 ```
+## Credits
+
+All workflows are stolen things and forked to my way of work.
+NONE ARE MINE.
