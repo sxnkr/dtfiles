@@ -23,6 +23,7 @@
 
 https://user-images.githubusercontent.com/88548908/193978019-da74358b-d59d-470b-a4a1-69251d7a1bcd.mp4
 
+## 🎨 The rices..
 
 ### 🌸Emilia:
 
@@ -253,14 +254,14 @@ systemctl --user enable mpd.service
 systemctl --user start mpd.service
 ```
 
-##The proper execute permissions on some files should be maintained when you download/clone and copy to your directories, but if not just run the following line by line.
+## The proper execute permissions on some files should be maintained when you download/clone and copy to your directories, but if not just run the following line by line.
 
 ```sh
 chmod +x ~/.config/bspwm/bspwmrc
 chown $USER ~/.config/bspwm/rice.cfg
 chmod +x ~/.config/bspwm/scripts/{external_rules,getSongDuration,music,RandomWall,hu-polybar,LaunchWorld,RiceSelector,screenshoter,updates.sh,WeatherMini}
 ```   
-# In Cristina, Pamela, Andrea & z0mbi3 Rices, you need to give execution permissions to the shell scripts too.
+## In Cristina, Pamela, Andrea & z0mbi3 Rices, you need to give execution permissions to the shell scripts too.
 ```
 chmod +x ~/.config/bspwm/rices/pamela/widgets/{calendar,calendarlauncher,mplayer-launcher,power-launcher,profile-sys-launcher}
 chmod +x ~/.config/bspwm/rices/andrea/arin/sidedar/toggle_sidebar
