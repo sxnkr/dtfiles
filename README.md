@@ -253,15 +253,15 @@ systemctl --user enable mpd.service
 systemctl --user start mpd.service
 ```
 
-```
 The proper execute permissions on some files should be maintained when you download/clone and copy to your directories, but if not just run the following line by line.
+
 ```sh
 chmod +x ~/.config/bspwm/bspwmrc
 chown $USER ~/.config/bspwm/rice.cfg
 chmod +x ~/.config/bspwm/scripts/{external_rules,getSongDuration,music,RandomWall,hu-polybar,LaunchWorld,RiceSelector,screenshoter,updates.sh,WeatherMini}
-
+```   
 # In Cristina, Pamela, Andrea & z0mbi3 Rices, you need to give execution permissions to the shell scripts too.
-
+```
 chmod +x ~/.config/bspwm/rices/pamela/widgets/{calendar,calendarlauncher,mplayer-launcher,power-launcher,profile-sys-launcher}
 chmod +x ~/.config/bspwm/rices/andrea/arin/sidedar/toggle_sidebar
 chmod +x ~/.config/bspwm/rices/andrea/arin/scripts/{battery,check-network,music_info,quotes,sys_info,system,volume.sh,widget_apps,widget_search}
