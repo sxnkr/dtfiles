@@ -233,7 +233,8 @@ cp -r misc/fonts/* ~/.local/share/fonts/
 cp -r misc/bin ~/.local/
 cp -r misc/applications ~/.local/share/
 cp -r misc/asciiart ~/.local/share/
-fc-cache -rv
+fc-cache -rvre
+#If the fonts are not rendered correctly, copy them manually and refresh cache
 
 # You probably MUST use your own .zsh config, but if you want to use mine, do;
 cp -r home/.zshrc ~/.zshrc
